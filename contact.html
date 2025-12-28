@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="final2.css" />
+    <link rel="stylesheet" href="final.css" />
+    <link rel="icon" href="image/logo cofe2.png" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <img class="logo" src="image/logo cofe2.png" alt="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <form>
+      <fieldset>
+        <legend>Send US Your Message</legend>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Your Full Name" required />
+        <br /><br />
+        <label>Email</label>
+        <input
+          type="email"
+          placeholder="Enter Your Email"
+          name="email"
+          required />
+        <br /><br />
+        <label>Gender</label>
+        <label
+          ><input class="male" type="radio" name="gender" checked required />
+          Male</label
+        >
+        <label><input type="radio" name="gender" required /> Female</label>
+        <br /><br />
+        <label>Nationality</label>
+        <select name="nationality">
+          <option>Cambodia</option>
+          <option>English</option>
+          <option>Chinese</option>
+        </select>
+        <br /><br />
+        <label>Upload Resume:</label>
+        <input type="file" value="Choose file" required /> <br />
+        <br />
+        <label>Paste Your resume</label> <br />
+        <textarea
+          rows="4"
+          cols="33"
+          placeholder="Simple resume text."></textarea>
+        <br />
+        <br />
+        <div class="checkbox3">
+          <label>
+            <input type="checkbox" checked />Notify me the status vai
+            Email</label
+          >
+          <br />
+          <label> <input type="radio" />I agree to terms & conditions</label>
+          <br />
+          <br />
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="reset" />
+          <img src="/icon/hellokitty.png" alt="" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

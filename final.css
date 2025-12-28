@@ -1,0 +1,120 @@
+body {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url('image/hello.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+fieldset {
+  border: 2px solid #f5276c;
+  border-radius: 8px;
+  width: 400px;
+  margin-top: 130px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: #ffe6ea;
+}
+legend {
+  font-size: 16px;
+}
+legend:hover {
+  transition: 1s;
+  color: #f5276c;
+  cursor: pointer;
+}
+input[type='radio'],
+input[type='checkbox'] {
+  accent-color: #f5276c;
+}
+input[type='text'] {
+  height: 30px;
+  margin-left: 40px;
+  width: 50%;
+  background: transparent;
+}
+input[type='email'] {
+  height: 30px;
+  margin-left: 70px;
+  width: 50%;
+  background: transparent;
+}
+textarea {
+  background: transparent;
+}
+input[type='text']:focus,
+input[type='email']:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1.6px solid #f5276c;
+}
+input,
+select {
+  cursor: pointer;
+  background: transparent;
+}
+.button {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+input[type='submit'],
+input[type='reset'] {
+  border-radius: 8px;
+}
+input[type='submit']:hover {
+  transition: 0.8s;
+  transform: scale(1.2);
+  border: 1px solid #0000ff;
+  border-radius: 8px;
+  background-color: #00ffff;
+  color: #0000ff;
+}
+input[type='reset']:hover {
+  transition: 0.8s;
+  transform: scale(1.2);
+  border: 1px solid red;
+  border-radius: 8px;
+  background-color: blanchedalmond;
+  color: red;
+}
+img {
+  width: 50px;
+  cursor: pointer;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+select {
+  height: 30px;
+  width: 50%;
+  margin-left: 35px;
+}
+.male {
+  margin-left: 60px;
+}
+.checkbox1,
+.checkbox2 {
+  margin-left: 111px;
+}
+.post {
+  margin-left: 15px;
+}
+.post1 {
+  margin-left: 45px;
+}
+.post2 {
+  margin-left: 84px;
+}
+.post3 {
+  margin-left: 15px;
+}
+.checkbox3 {
+  margin-left: 10px;
+}
