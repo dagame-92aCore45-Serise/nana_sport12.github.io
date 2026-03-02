@@ -274,7 +274,7 @@ li a:hover:before {
   color: #a0a0a0;
   border: 1px solid #47000c;
   margin-top: 150px;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   font-family: 'koulen';
   box-shadow:
@@ -289,29 +289,14 @@ li a:hover:before {
   color: #ffff;
   cursor: pointer;
 }
-.marpuee_box {
-  background-color: gold;
-  width: 100%;
-  padding-right: 100%;
+.mar {
+  margin-top: -30px;
 }
-.marquee {
+.mar marquee {
+  font-size: 30px;
+  padding: 5px;
   font-family: 'moul';
-  width: 100%;
-  letter-spacing: 1px;
-  font-size: 20px;
-  width: 100%;
-  overflow: hidden;
-  margin-top: -50px;
-  white-space: nowrap;
-  animation: move 15s linear infinite;
-}
-@keyframes move {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+  color: white;
 }
 /* food */
 .food {
